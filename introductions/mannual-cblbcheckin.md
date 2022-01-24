@@ -54,7 +54,7 @@ expectRatio = maticAcquired / cblbMinted
 
 签到人次和 CBLB 发行数量对应关系，具体参考[CBLB 代币模型](https://cblb.app/supervise/cblb-token-model)
 
-![]()
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/imgs/cblb-checkin-issue-amout-table.png)
 
 ## CBLB 代币
 
