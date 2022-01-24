@@ -56,6 +56,13 @@ expectRatio = maticAcquired / cblbMinted
 
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/imgs/mannual-cblbcheckin.png)
 
+| 签到总人次 | CBLB 发行数量 | CBLB 签到合约积累 MATIC 数量 | 期望兑换比例(CBLB/MATIC) | 增长比例 |
+| ---------- | ------------- | ---------------------------- | ------------------------ | -------- |
+| 100        | 100591.48     | 11.314                       | 0.0001124                | 0%       |
+| 1000       | 347394.12     | 113.145                      | 0.000325                 | 28.9%    |
+| 10000      | 668063.47     | 1131.455                     | 0.00169                  | 1503.5%  |
+| 100000     | 999729.42     | 11314.554                    | 0.0113                   | 10053.3% |
+
 ## CBLB 代币
 
 - CBLB 代币合约：[0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)
