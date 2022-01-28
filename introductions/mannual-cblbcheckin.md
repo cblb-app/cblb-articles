@@ -70,8 +70,9 @@ expectRatio = maticAcquired / cblbMinted
 
 - 部署所有[cblb.app](https://cblb.app/)合约的唯一账户
 - 例行执行[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)签到动作领取 CBLB
+- 通过 Dex([Quickswap](https://quickswap.exchange/#/swap?inputCurrency=ETH&outputCurrency=0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B))买入 CBLB
 - 从[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)提取用户签到积累的 MATIC
-- 利用签到领取到的 CBLB 和获取的 MATIC 添加[Quickswap CBLB/MATIC 流动性池](https://polygonscan.com/address/0xe99d5f930048ae3006205c87d2ddafa397014012)，并把[流动性 LP 代币](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012)锁入[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)成为永久 CBLB/MATIC 流动性
+- 利用签到领取到的 CBLB 、买入的 CBLB 和获取的 MATIC 添加[Quickswap CBLB/MATIC 流动性池](https://polygonscan.com/address/0xe99d5f930048ae3006205c87d2ddafa397014012)，并把[流动性 LP 代币](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012)锁入[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)成为永久 CBLB/MATIC 流动性
 - 【禁止】卖出 CBLB
 
 ## 维护者钱包
@@ -81,8 +82,8 @@ expectRatio = maticAcquired / cblbMinted
 维护者钱包地址行为规范
 
 - 例行执行[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)签到动作领取 CBLB
-- 创建 Polygon 上[Uniswap v3 CBLB/MATIC 流动性](https://app.uniswap.org/#/pool/23854)，价格范围：0.0001 CBLB/MATIC - 0.01 CBLB/MATIC，初始兑换率 0.01 CBLB/MATIC，Uniswap v3 流动性收益可自由支配
-- 以贴近当前期望兑换率(CBLB/MATIC)为标准，执行买入 CBLB 和卖出 CBLB 动作
+- 创建 Polygon 上[Uniswap v3 CBLB/MATIC 流动性](https://app.uniswap.org/#/pool/23854)，[Uniswap v3 CBLB/USDC 流动性](https://app.uniswap.org/#/pool/27318?chain=polygon)，Uniswap v3 流动性收益可自由支配
+- 执行买入 CBLB 和卖出 CBLB 动作
 - 可以囤积 CBLB 获利
 
 综上仅作参考，DYOR
