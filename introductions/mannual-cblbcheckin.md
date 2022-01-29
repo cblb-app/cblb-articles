@@ -30,14 +30,14 @@ cblbAmount = 144600 / (index + 100)
 - `cblbAmount`：每次签到用户可以获得的 CBLB 数量
 - `index`:总签到人次
 
-> 具体信息见[CBLB 代币模型](https://cblb.app/supervise/cblb-token-model)
+具体信息见[CBLB 代币模型](https://cblb.app/supervise/cblb-token-model)
 
 随着签到人数的增多，从签到合约的视角来看
 
 - [CBLB 签到合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)**得到**用户签到付出的 MATIC
 - [CBLB 签到合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)**付出**了 CBLB 代币
 
-> CBLB 代币为可 Mintable ERC20 代币，owner 已被设置为[CBLB 签到合约地址](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)，意味着每次签到行为对应的 CBLB 产生量被[CBLB 代币模型](https://cblb.app/supervise/cblb-token-model)公式严格控制，随着总签到人次增加，每次签到行为可获得的 CBLB 不断减少
+CBLB 代币为可 Mintable ERC20 代币，owner 已被设置为[CBLB 签到合约地址](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)，意味着每次签到行为对应的 CBLB 产生量被[CBLB 代币模型](https://cblb.app/supervise/cblb-token-model)公式严格控制，随着总签到人次增加，每次签到行为可获得的 CBLB 不断减少
 
 为了防止高频签到造成 CBLB 被单一大户控制，对较晚参与签到玩法的用户造成**签到劣势**，[CBLB 签到合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)内设置了规则：同一钱包地址每 24 小时只能进行一次签到的约束
 
