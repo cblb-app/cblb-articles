@@ -87,15 +87,11 @@
 
 对于 Cblb 签到合约，机器人套利者的 CBLB 获取成本为
 
-```
-CBLB成本 = (0.11314 + 签到交互gas fee + swap gas fee) / CBLB数量
-```
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/cblb-price-base.png)
 
 实际运行中，机器人套利者采用的模式是数十个钱包地址进行签到，汇集到一个地址完成 swap，那么签到成本为
 
-```
-CBLB成本 = (((0.11314  + 签到交互gas fee + transfer gas fee) * 钱包数量 / CBLB获得总数)) + swap gas fee
-```
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/cblb-price-average.png)
 
 对于 Cblb 签到玩法，每次签到获得的 CBLB 代币数量随着签到次数递减，可以得出结论：
 
