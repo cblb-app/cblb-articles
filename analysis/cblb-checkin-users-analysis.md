@@ -59,7 +59,7 @@
 - **CBLB 代币**是发行在 Polygon 上的 ERC20 标准的 Mintable 代币，初始发行量 0，无上限
 - **CBLB 代币**的`owner()`是**Cblb 签到合约**
 - **CBLB 代币**的发行只能通过调用**Cblb 签到合约**的`checkin()`方法，对应 UI 界面为[cblb.app 序章](https://cblb.app/prologue)，每次 Mint 数量被**Cblb 签到合约**中的[托里拆利小号数学模型](https://cblb.app/supervise/cblb-token-model)计算得出，每次 CBLB `mint()`数量只与**签到总人次**有关。**签到总人次**越多，每次被**Cblb 签到合约**Mint 出的 CBLB 代币越少
-- 每次签到，用户需要固定支付`0.113147` MATIC，用来抬升 CBLB 代币的保底价格，同一用户钱包地址 24 小时只能签到一次
+- 每次签到，用户需要固定支付约`0.113146` MATIC，用来抬升 CBLB 代币的保底价格，同一用户钱包地址 24 小时只能签到一次
 - **开发者**可以通过调用**Cblb 签到合约**函数`devWithdrawAcquiredFee()`领取 Cblb 签到智能合约内积累的 MATIC
 - 任何用户可以调用**Cblb 签到合约**函数`sendAcquireFeeToDev()`发送**Cblb 签到合约**内积累的 MATIC 到**开发者**钱包
 - **开发者**需要在领取签到合约内汇集的 MATIC，执行买入 CBLB，添加[Quickswap CBLB/MATIC 流动性](https://info.quickswap.exchange/#/pair/0xe99d5f930048ae3006205c87d2ddafa397014012)，锁定[CBLB/MATIC LP 代币](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012)到**Cblb 签到合约**中
