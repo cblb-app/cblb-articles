@@ -26,3 +26,5 @@ Quickswap CBLB/MATIC LP 代币地址: [0xe99D5F930048AE3006205c87d2dDAfa39701401
 - [Polygonscan 锁定流动性记录](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012?a=0x15942e96beca7fa6081740dfb74d7702ec2c3b88)
 
 ## 从 Cblb 签到智能合约提取用户签到积累的 MATIC 记录
+
+- [2022/1/29 - 143.24 MATIC](https://polygonscan.com/tx/0x62cd1b5fa7fb0adc49eae6796b634f112c3a9600e7f38223aa238fab3a5dcc21)
