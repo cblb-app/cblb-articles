@@ -30,13 +30,13 @@
 
 ## 2. 基本数据
 
-- **CBLB 代币合约**部署于 2022 年 1 月 9 日，Transaction hash: [0xbec5289b7dd1dbb71a8550cd9ccbff6f782ace6490907468c29ad3a01f980632](https://polygonscan.com/tx/0xbec5289b7dd1dbb71a8550cd9ccbff6f782ace6490907468c29ad3a01f980632)
-- **Cblb 签到合约**部署于 2022 年 1 月 20 日，Transaction hash: [0xdda6622ac2cea5cc3e7ac5e21526487c35e51724660949364595f4f0797cf794](https://polygonscan.com/tx/0xdda6622ac2cea5cc3e7ac5e21526487c35e51724660949364595f4f0797cf794)
+- **CBLB 代币合约**部署于 2022 年 1 月 9 日，[Transaction hash](https://polygonscan.com/tx/0xbec5289b7dd1dbb71a8550cd9ccbff6f782ace6490907468c29ad3a01f980632)
+- **Cblb 签到合约**部署于 2022 年 1 月 20 日，[Transaction hash](https://polygonscan.com/tx/0xdda6622ac2cea5cc3e7ac5e21526487c35e51724660949364595f4f0797cf794)
 
 上述两个智能合约代码已于 Polygonscan 验证，并且开源了开发工程
 
-- [CBLB 代币合约 Polygonscan 页面](https://polygonscan.com/address/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B#code)
-- [Cblb 签到合约 Polygonscan 页面](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88#code)
+- [CBLB 代币合约 Polygonscan](https://polygonscan.com/address/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B#code)
+- [Cblb 签到合约 Polygonscan](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88#code)
 - [开源工程 Github 仓库](https://github.com/cblb-app/cblb-token-checkin-contracts)
 
 <a id="3-签到玩法内角色设计"></a>
