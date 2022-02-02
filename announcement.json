@@ -1,34 +1,41 @@
 [
   {
-    "title": "Cblb.app 开发进展",
+    "title": "实现排行榜功能",
+    "githubUrl": "",
+    "mdContentUrl": "",
+    "route": "/ranking",
+    "date": "2022/2"
+  },
+  {
+    "title": "更新Cblb.app 开发进展",
     "githubUrl": "https://github.com/cblb-app/cblb-app-progress/blob/master/README.md",
     "mdContentUrl": "https://raw.githubusercontent.com/cblb-app/cblb-app-progress/master/README.md",
     "route": "/supervise/progress",
-    "date": "2022/1"
+    "date": "2022/2"
   },
   {
-    "title": "Cblb.app 签到玩法和使用者分析",
+    "title": "发布文章《Cblb.app 签到玩法和使用者分析》",
     "githubUrl": "https://github.com/cblb-app/cblb-articles/blob/master/analysis/cblb-checkin-users-analysis.md",
     "mdContentUrl": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/cblb-checkin-users-analysis.md",
     "route": "/prologue",
     "date": "2022/1"
   },
   {
-    "title": "Cblb 签到玩法介绍",
+    "title": "发布文章《Cblb 签到玩法介绍》",
     "githubUrl": "https://github.com/cblb-app/cblb-articles/blob/master/introductions/mannual-cblbcheckin.md",
     "mdContentUrl": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/mannual-cblbcheckin.md",
     "route": "/supervise/cblb-check-in",
     "date": "2022/1"
   },
   {
-    "title": "Cblb 开发者钱包操作记录",
+    "title": "整理并公开《Cblb 开发者钱包操作记录》",
     "githubUrl": "https://github.com/cblb-app/cblb-articles/blob/master/operations/cblb-dev-operation-record.md",
     "mdContentUrl": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/operations/cblb-dev-operation-record.md",
     "route": "",
     "date": "2022/1"
   },
   {
-    "title": "CBLB发行模型",
+    "title": "编写并更新文章《CBLB发行模型》",
     "githubUrl": "https://github.com/cblb-app/cblb-token-model/blob/master/README.md",
     "mdContentUrl": "https://raw.githubusercontent.com/cblb-app/cblb-token-model/master/README.md",
     "route": "/supervise/cblb-token-model",
