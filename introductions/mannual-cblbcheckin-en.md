@@ -75,7 +75,7 @@ Developer Wallet Address Code of Conduct
 - Routinely perform [CBLB check-in smart contract](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88) check-in action to receive CBLB
 - Buy CBLB via Dex([Quickswap](https://quickswap.exchange/#/swap?inputCurrency=ETH&outputCurrency=0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B))
 - Extract the MATIC accumulated by the user's check-in from the [CBLB check-in smart contract](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)
-- Add [Quickswap CBLB/MATIC liquidity pool](https://polygonscan.com/address/0xe99d5f930048ae3006205c87d2ddafa397014012) using CBLB received by check-in, purchased CBLB and acquired MATIC, and lock [liquidity LP tokens](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012) into [CBLB check-in smart contract]](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88) to become permanent CBLB/MATIC liquidity
+- Add [Quickswap CBLB/MATIC liquidity pool](https://polygonscan.com/address/0xe99d5f930048ae3006205c87d2ddafa397014012) using CBLB received by check-in, purchased CBLB and acquired MATIC, and lock [liquidity LP tokens](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012) into [CBLB check-in smart contract](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88) to become permanent CBLB/MATIC liquidity
 - **Prohibition** Sell CBLB
 
 ## Maintainer wallet
