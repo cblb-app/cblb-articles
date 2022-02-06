@@ -57,7 +57,7 @@ What's more
 
 The corresponding relationship between the number of check-ins and the number of CBLB issuance, please refer to the CBLB token model for details
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/imgs/cblb-checkin-issue-amout-table.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/imgs/cblb-checkin-issue-amout-table-en.png)
 
 ## CBLB token
 

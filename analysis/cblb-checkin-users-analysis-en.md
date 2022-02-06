@@ -1,10 +1,32 @@
 # Cblb check-in gameplay and user analysis
 
+<!-- MarkdownTOC -->
+
+- [1. Overview](#1-overview)
+- [2. Basic data](#2-basic-data)
+- [3. Check-in in-game character decheck](#3-check-in-in-game-character-decheck)
+- [4. Introduction to the check-in gameplay mechanism](#4-introduction-to-the-check-in-gameplay-mechanism)
+- [5. The number of characters after the online check-in gameplay is increased](#5-the-number-of-characters-after-the-online-check-in-gameplay-is-increased)
+  - [5.1 Behavior analysis of robot arbitrageurs](#51-behavior-analysis-of-robot-arbitrageurs)
+  - [5.2 Participant Behavior Analysis](#52-participant-behavior-analysis)
+- [6. Character analysis after the cold start of the check-in gameplay](#6-character-analysis-after-the-cold-start-of-the-check-in-gameplay)
+  - [6.1 Contributions and constraints of four roles other than contracts to the CBLB Web3 economic system](#61-contributions-and-constraints-of-four-roles-other-than-contracts-to-the-cblb-web3-economic-system)
+  - [6.2 Analysis of Risk from Developers](#62-analysis-of-risk-from-developers)
+- [7. Permanent liquidity CBLB/MATIC analysis](#7-permanent-liquidity-cblbmatic-analysis)
+- [8. Give participation suggestions through CBLB related exchange ratio parameters](#8-give-participation-suggestions-through-cblb-related-exchange-ratio-parameters)
+- [9. Summary](#9-summary)
+
+<!-- /MarkdownTOC -->
+
+<a id="1-overview"></a>
+
 ## 1. Overview
 
 cblb.app is a dApp on Polygon after deploying the Cblb check-in contract and the CBLB token contract. As of January 29, 2022, a total of 1,266 people have checked in. Obtaining such data without any publicity highlights the charm of Web3.
 
 It also proves the activeness of Web3 from the side, especially the users with development ability occupy a large proportion.
+
+<a id="2-basic-data"></a>
 
 ## 2. Basic data
 
@@ -17,6 +39,8 @@ The above two smart contract codes have been verified by Polygonscan, and the de
 - [Cblb check in contract Polygonscan](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88#code)
 - [Open source engineering Github repository](https://github.com/cblb-app/cblb-token-checkin-contracts)
 
+<a id="3-check-in-in-game-character-decheck"></a>
+
 ## 3. Check-in in-game character decheck
 
 The check-in gameplay consists of four elements
@@ -25,6 +49,8 @@ The check-in gameplay consists of four elements
 - [CBLB Token Contract](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)
 - [Developer](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
 - [Maintainer](https://polygonscan.com/address/0xf9e4b03a592152cbF2362222d7465f25ba627f9C)
+
+<a id="4-introduction-to-the-check-in-gameplay-mechanism"></a>
 
 ## 4. Introduction to the check-in gameplay mechanism
 
@@ -40,12 +66,16 @@ For details, see [CBLB Check-in Game Introduction](https://cblb.app/supervise/cb
 - The developer initially provides some MATIC to start the check-in game: buy CBLB tokens, add [Quickswap CBLB/MATIC liquidity](https://info.quickswap.exchange/#/pair/0xe99d5f930048ae3006205c87d2ddafa397014012), lock [CBLB/MATIC LP tokens](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012) to the Cblb check-in contract to constitute the permanent liquidity of the system
 - The maintainer initially provides some MATIC for: establishing liquidity that can earn income (currently [Uniswap v3 CBLB/USDC](https://app.uniswap.org/#/pool/27318?chain=polygon)), buying and selling CBLB tokens to increase CBLB activity, making profits through liquidity pool fees, selling CBLB to gain profit
 
+<a id="5-the-number-of-characters-after-the-online-check-in-gameplay-is-increased"></a>
+
 ## 5. The number of characters after the online check-in gameplay is increased
 
 After completing the deployment of CBLB token contract and Cblb check-in contract, developers provide initial liquidity, maintainers establish liquidity pools, and new roles from Web3 quickly appeared in the whole system, namely:
 
 - Robot arbitrageur
 - Participant
+
+<a id="51-behavior-analysis-of-robot-arbitrageurs"></a>
 
 ### 5.1 Behavior analysis of robot arbitrageurs
 
@@ -67,9 +97,13 @@ For the Cblb check-in game, the number of CBLB tokens obtained by each check-in 
 
 - **Robot arbitrageurs will intervene when the price of CBLB in the Quickswap permanent liquidity pool is too high relative to the check-in cost, complete the arbitrage and suppress the price of CBLB**
 
+<a id="52-participant-behavior-analysis"></a>
+
 ### 5.2 Participant Behavior Analysis
 
 The behavior patterns of participants include: check in to receive CBLB, sell CBLB, and buy CBLB. It is the behavior pattern of most defi users, which can be summarized as "digging", "withdrawing", and "selling" to make a profit, or "hoarding coins" and "selling" to make a profit.
+
+<a id="6-character-analysis-after-the-cold-start-of-the-check-in-gameplay"></a>
 
 ## 6. Character analysis after the cold start of the check-in gameplay
 
@@ -88,6 +122,8 @@ Analysis can be drawn from the contribution of different roles in the system to 
 - Developer: Execute the three steps of CBLB price bottoming: "receive MATIC", provide CBLB/MATIC liquidity, "lock in liquidity LP tokens to check-in contract", generate CBLB issuance volume and Cblb check-in contract to collect the balance between MATIC Exchange relationship, called **CBLB expected exchange ratio**
 - Robot arbitrageur: Completing CBLB price suppression can prevent the unhealthy rise of CBLB in any situation of issuance and price, and avoid huge losses for large investors and ordinary participants
 
+<a id="61-contributions-and-constraints-of-four-roles-other-than-contracts-to-the-cblb-web3-economic-system"></a>
+
 ### 6.1 Contributions and constraints of four roles other than contracts to the CBLB Web3 economic system
 
 At this point we have a small metaverse economic system, which we prefer to call a small Web3 economic system.
@@ -103,6 +139,8 @@ conclusion can be made
 
 - **The four human factors in the system provide three kinds of contributions and three kinds of constraints, ensuring the long-term stability and sustainable development of the CBLB Web3 economic system**
 
+<a id="62-analysis-of-risk-from-developers"></a>
+
 ### 6.2 Analysis of Risk from Developers
 
 Based on the above introduction and analysis, the most intuitive risk point comes from **whether developers continue to add permanent liquidity**.
@@ -114,6 +152,8 @@ Therefore, from the perspective of the stability of a system, even if the develo
 conclusion can be made
 
 - **The risk monitoring of cblb.app is in a real-time state, and the data on the chain is completely open, which is in line with the idea of ​​dApp opening and open source**
+
+<a id="7-permanent-liquidity-cblbmatic-analysis"></a>
 
 ## 7. Permanent liquidity CBLB/MATIC analysis
 
@@ -131,6 +171,8 @@ The generation of this fluctuation power provides arbitrage space for maintainer
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/quickswap-fee.png)
 
 From the check-in point of view, if there is no user check-in, then the system can also gain momentum from the price fluctuation of MATIC, and the check-in behavior only affects the speed of the growth rate of the CBLB Web3 economic system.
+
+<a id="8-give-participation-suggestions-through-cblb-related-exchange-ratio-parameters"></a>
 
 ## 8. Give participation suggestions through CBLB related exchange ratio parameters
 
@@ -161,6 +203,8 @@ Suggestions for participation
 - For **robot arbitrageurs**: you should pay attention to the difference between **CBLB check-in cost conversion ratio** and **current CBLB conversion ratio**, if the difference expands, you can make arbitrage
 - For **participants**: if you plan to **buys**, you need to control the buying volume, if the buying volume is too large, and the **current CBLB exchange rate** is much higher than the **CBLB check-in cost exchange rate**, thus creating arbitrage space for **robot arbitrageurs**, resulting in short-term losses
 - For **participants**: plan to check in, no need to pay attention to the ratio
+
+<a id="9-summary"></a>
 
 ## 9. Summary
 
