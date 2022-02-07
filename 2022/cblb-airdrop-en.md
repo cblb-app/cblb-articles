@@ -4,7 +4,7 @@ CBLB's first airdrop event is here. This airdrop event pays tribute to the organ
 
 Airdrop Address Screening Criteria
 
-- Sign-in contract deployment from CBLB
+- Check-in contract deployment from CBLB
   Starts at block 23950682, [Contract Deployment Transaction](https://polygonscan.com/tx/0xdda6622ac2cea5cc3e7ac5e21526487c35e51724660949364595f4f0797cf794), ends at block 24621682
 - Addresses with [Qi Dao Token](https://polygonscan.com/token/0x580a84c73811e1839f75d86d75d88cca0c241ff4) Approval event within the block range
 - The total number of airdrop user addresses after deduplication is: 3352
