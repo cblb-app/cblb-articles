@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "CBLB 首次空投活动",
+      "en": "CBLB's first airdrop event is here"
+    },
+    "url": {
+      "zh": "https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B",
+      "en": "https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B"
+    },
+    "route": "",
+    "date": "2022/2"
+  },
+  {
+    "title": {
       "zh": "Polygonscan收录CBLB代币信息",
       "en": "List CBLB token information on Polygonscan"
     },
