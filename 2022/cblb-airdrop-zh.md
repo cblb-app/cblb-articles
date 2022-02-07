@@ -10,7 +10,7 @@ CBLB 首次空投活动来袭，本次空投活动致敬 Web3 中 DAO 的组织�
 - 空投用户地址去重之后总数为：3352
 - 空投金额：17 [CBLB](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)
 
-地址列表见[CBLB 空投地址列表]()
+地址列表见[CBLB 空投地址列表](https://github.com/cblb-app/cblb-articles/blob/master/2022/CBLB-airdrop-wallet-list.csv)
 
 空投地址生成工具[CBLB contract event parser](https://github.com/cblb-app/cblb-event-parse-website)  
 空投发送工具[disperse.app/](https://disperse.app/)

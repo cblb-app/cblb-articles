@@ -10,7 +10,7 @@ Airdrop Address Screening Criteria
 - The total number of airdrop user addresses after deduplication is: 3352
 - Airdrop Amount: 17 [CBLB](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)
 
-For the address list, see [CBLB Airdrop Address List]()
+For the address list, see [CBLB Airdrop Address List](https://github.com/cblb-app/cblb-articles/blob/master/2022/CBLB-airdrop-wallet-list.csv)
 
 Airdrop address generation tool [CBLB contract event parser](https://github.com/cblb-app/cblb-event-parse-website)
 Airdrop sending tool [disperse.app/](https://disperse.app/)
