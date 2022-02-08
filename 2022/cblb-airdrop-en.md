@@ -1,6 +1,6 @@
 # CBLB Airdrop Event
 
-CBLB's first airdrop event is here. This airdrop event pays tribute to the organizational form of DAO in Web3. The Qi Dao project interactive wallet address is selected as the airdrop target. The is blockchain Polygon
+CBLB's first airdrop event is here. This airdrop event pays tribute to the organizational form of DAO in Web3. The Qi Dao project interactive wallet address is selected as the airdrop target. The blockchain is Polygon.
 
 Airdrop Address Screening Criteria
 
