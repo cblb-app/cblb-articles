@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "arken.finance收录CBLB代币信息",
+      "en": "List CBLB token information on arken.finance"
+    },
+    "url": {
+      "zh": "https://swap.arken.finance/tokens/polygon/0x7a45922f95c845ff9be01112afcf207968a9ca0b",
+      "en": "https://swap.arken.finance/tokens/polygon/0x7a45922f95c845ff9be01112afcf207968a9ca0b"
+    },
+    "route": "",
+    "date": "2022/2"
+  },
+  {
+    "title": {
       "zh": "CBLB 首次空投活动",
       "en": "CBLB's first airdrop event is here"
     },
