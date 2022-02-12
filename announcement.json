@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "nomics.com收录CBLB代币信息",
+      "en": "List CBLB token information on nomics.com"
+    },
+    "url": {
+      "zh": "https://nomics.com/assets/cblb-cblb-token",
+      "en": "https://nomics.com/assets/cblb-cblb-token"
+    },
+    "route": "",
+    "date": "2022/2"
+  },
+  {
+    "title": {
       "zh": "arken.finance收录CBLB代币信息",
       "en": "List CBLB token information on arken.finance"
     },
@@ -74,7 +86,7 @@
   {
     "title": {
       "zh": "发布文章《Cblb 签到玩法介绍》",
-      "en": "Published the article 'Introduction to Cblb Sign-in Gameplay'"
+      "en": "Published the article 'Introduction to Cblb Check-in Gameplay'"
     },
     "url": {
       "zh": "https://github.com/cblb-app/cblb-articles/blob/master/introductions/mannual-cblbcheckin-zh.md",
