@@ -1,4 +1,4 @@
-# CBLB check-in gameplay, character refinement and room for improvement
+# Cblb.app check-in gameplay, character refinement and room for improvement
 
 After more than 20 days of operation, the CBLB economic system has entered a relatively stable state, which includes relatively stable liquidity and relatively stable number of check-ins.
 

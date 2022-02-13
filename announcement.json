@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "发布文章《Cblb.app 签到玩法角色细化和提升空间》",
+      "en": "Published the article 'Cblb.app check-in gameplay, character refinement and room for improvement'"
+    },
+    "url": {
+      "zh": "https://github.com/cblb-app/cblb-articles/blob/master/2022/cblb-checkin-reanalysis-enhencement-zh.md",
+      "en": "https://github.com/cblb-app/cblb-articles/blob/master/2022/cblb-checkin-reanalysis-enhencement-en.md"
+    },
+    "route": "",
+    "date": "2022/2"
+  },
+  {
+    "title": {
       "zh": "增加twitter分享，自动生成tweet内容",
       "en": "Implement twitter sharing, automatically generate tweet content"
     },
