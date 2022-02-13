@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "增加twitter分享，自动生成tweet内容",
+      "en": "Implement twitter sharing, automatically generate tweet content"
+    },
+    "url": {
+      "zh": "https://twitter.com/cblbapp/status/1492817262398836745",
+      "en": "https://twitter.com/cblbapp/status/1492817262398836745"
+    },
+    "route": "",
+    "date": "2022/2"
+  },
+  {
+    "title": {
       "zh": "nomics.com收录CBLB代币信息",
       "en": "List CBLB token information on nomics.com"
     },
