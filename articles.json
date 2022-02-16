@@ -8,6 +8,10 @@
       "zh": "https://github.com/cblb-app/cblb-articles/blob/master/2022/cblb-checkin-reanalysis-enhencement-zh.md",
       "en": "https://github.com/cblb-app/cblb-articles/blob/master/2022/cblb-checkin-reanalysis-enhencement-en.md"
     },
+    "content": {
+      "zh": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/cblb-checkin-reanalysis-enhencement-zh.md",
+      "en": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/cblb-checkin-reanalysis-enhencement-en.md"
+    },
     "date": "2022/2"
   },
   {
@@ -18,6 +22,10 @@
     "url": {
       "zh": "https://github.com/cblb-app/cblb-articles/blob/master/analysis/cblb-checkin-users-analysis-zh.md",
       "en": "https://github.com/cblb-app/cblb-articles/blob/master/analysis/cblb-checkin-users-analysis-en.md"
+    },
+    "content": {
+      "zh": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/cblb-checkin-users-analysis-zh.md",
+      "en": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/cblb-checkin-users-analysis-en.md"
     },
     "date": "2022/1"
   },
@@ -30,6 +38,10 @@
       "zh": "https://github.com/cblb-app/cblb-articles/blob/master/introductions/mannual-cblbcheckin-zh.md",
       "en": "https://github.com/cblb-app/cblb-articles/blob/master/introductions/mannual-cblbcheckin-en.md"
     },
+    "content": {
+      "zh": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/mannual-cblbcheckin-zh.md",
+      "en": "https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/mannual-cblbcheckin-en.md"
+    },
     "date": "2022/1"
   },
   {
@@ -40,6 +52,10 @@
     "url": {
       "zh": "https://github.com/cblb-app/cblb-token-model/blob/master/README.md",
       "en": "https://github.com/cblb-app/cblb-token-model/blob/master/README.md"
+    },
+    "content": {
+      "zh": "https://raw.githubusercontent.com/cblb-app/cblb-token-model/master/README.md",
+      "en": "https://raw.githubusercontent.com/cblb-app/cblb-token-model/master/README.md"
     },
     "date": "2022/1"
   }
