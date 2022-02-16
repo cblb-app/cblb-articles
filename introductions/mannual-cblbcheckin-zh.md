@@ -1,4 +1,4 @@
-# CBLB 签到玩法介绍
+# Cblb.app 签到玩法介绍
 
 CBLB 签到玩法是基于智能合约构建的 CBLB Web3 经济系统入口，[Cblb 签到合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)和[CBLB 代币合约](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)均部署于 Polygon。
 
