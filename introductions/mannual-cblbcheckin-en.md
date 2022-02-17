@@ -1,5 +1,14 @@
 # Cblb.app check-in gameplay introduction
 
+<!-- MarkdownTOC -->
+
+- [CBLB check-in contract](#cblb-check-in-contract)
+- [CBLB token](#cblb-token)
+- [Developer wallet](#developer-wallet)
+- [Maintainer wallet](#maintainer-wallet)
+
+<!-- /MarkdownTOC -->
+
 The CBLB check-in game is the entrance to the CBLB Web3 economic system based on smart contracts. Both the [Cblb check-in contract](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88) and the [CBLB token contract](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B) are deployed in Polygon.
 
 A CBLB check-in consists of four elements:
@@ -10,6 +19,8 @@ A CBLB check-in consists of four elements:
 - [Maintainer wallet address](https://polygonscan.com/address/0xf9e4b03a592152cbF2362222d7465f25ba627f9C)
 
 The above four elements constitute the CBLB check-in gameplay, and the above elements are all deployed in Polygon
+
+<a id="cblb-check-in-contract"></a>
 
 ## CBLB check-in contract
 
@@ -59,11 +70,15 @@ The corresponding relationship between the number of check-ins and the number of
 
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/introductions/imgs/cblb-checkin-issue-amout-table-en.png)
 
+<a id="cblb-token"></a>
+
 ## CBLB token
 
 - CBLB token contract: [0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
 
 A Mintable ERC20 token without initial Mint, each time a check-in will be made by CBLB to check in the smart contract Mint and send CBLB to the check-in user. The number of issuances is controlled by [the Torricelli trumpet model](https://cblb.app/supervise/cblb-token-model) in the CBLB check-in smart contract, and as the number of check-ins increases , the number of each issuance decreases non-proportionally
+
+<a id="developer-wallet"></a>
 
 ## Developer wallet
 
@@ -77,6 +92,8 @@ Developer Wallet Address Code of Conduct
 - Extract the MATIC accumulated by the user's check-in from the [CBLB check-in smart contract](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)
 - Add [Quickswap CBLB/MATIC liquidity pool](https://polygonscan.com/address/0xe99d5f930048ae3006205c87d2ddafa397014012) using CBLB received by check-in, purchased CBLB and acquired MATIC, and lock [liquidity LP tokens](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012) into [CBLB check-in smart contract](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88) to become permanent CBLB/MATIC liquidity
 - **Prohibition** Sell CBLB
+
+<a id="maintainer-wallet"></a>
 
 ## Maintainer wallet
 
