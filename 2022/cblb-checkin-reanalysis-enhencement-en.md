@@ -1,8 +1,21 @@
 # Cblb.app check-in gameplay, character refinement and room for improvement
 
+<!-- MarkdownTOC -->
+
+- [Robot arbitrageur role refinement](#robot-arbitrageur-role-refinement)
+- [Why did the user of the check-in robot not continue to check in?](#why-did-the-user-of-the-check-in-robot-not-continue-to-check-in)
+  - [Check-in cost analysis](#check-in-cost-analysis)
+  - [Robot arbitrageur profit](#robot-arbitrageur-profit)
+- [Why does the flow cell enter a steady state?](#why-does-the-flow-cell-enter-a-steady-state)
+- [Next upgrade point of cblb.app](#next-upgrade-point-of-cblbapp)
+
+<!-- /MarkdownTOC -->
+
 After more than 20 days of operation, the CBLB economic system has entered a relatively stable state, which includes relatively stable liquidity and relatively stable number of check-ins.
 
 All data in this article are as of Polygon block [24895721](https://polygonscan.com/tx/0xde82e0cc153d8e436f4139f30e86fc3b7613ff5e7adc22aaeb11a3a0947bd476), corresponding to `2641` Cblb check-in times.
+
+<a id="robot-arbitrageur-role-refinement"></a>
 
 ## Robot arbitrageur role refinement
 
@@ -15,6 +28,8 @@ By analyzing the 2641 check-in data, we can refine the **robot arbitrageur** int
 
 The robot arbitrageur at the beginning of the CBLB economic system is a combination of these two roles. It not only uses the check-in robot for check-in, but also performs arbitrage by monitoring the Quickswap permanent liquidity pool and the CBLB price in the CBLB/USDC liquidity pool.
 
+<a id="why-did-the-user-of-the-check-in-robot-not-continue-to-check-in"></a>
+
 ## Why did the user of the check-in robot not continue to check in?
 
 First of all, we analyze the motivation of the check-in robot users to continue to check in. The analysis has been done in "Cblb Check-in Gameplay and User Analysis". There are two key CBLB price indicators to determine whether the robot arbitrageur performs arbitrage actions.
@@ -23,6 +38,8 @@ First of all, we analyze the motivation of the check-in robot users to continue 
 - Quickswap exchange rate
 
 **The conclusion is thrown first**: When the Quickswap exchange ratio is greater than the check-in cost exchange ratio and there is enough profit margin, the machine check-in robot user will operate multiple accounts to check in to obtain CBLB and sell it in Quickswap to complete the profit.
+
+<a id="check-in-cost-analysis"></a>
 
 ### Check-in cost analysis
 
@@ -36,15 +53,21 @@ It can be calculated that the CBLB acquisition cost of using 100 wallet addresse
 
 In block `24895721`, the Quickswap permanent liquidity pool contains 950.95 MATIC, 295184 CBLB, and the exchange ratio can be calculated as: 950.95 / 295184 = 0.00322 CBLB/MATIC
 
+<a id="robot-arbitrageur-profit"></a>
+
 ### Robot arbitrageur profit
 
 Then simply calculate if the robot arbitrageur controls 100 wallet accounts from block `24895721` to check in and sell CBLB (assuming the price of the Quickswap liquidity pool remains unchanged, which is actually less than the profit), the profit can be: (0.00322 - 0.002283 ) \* 5182.42 = 4.85 MATIC, at block `24895721`, the price of MATIC is about `1.67$`, then the estimated total profit is about `8$`. In fact, because Quickswap uses the AMM model, the actual profit is less than `8$` about is `7.5$`. In the steady state, it can be seen that the profit threshold for the robot model of the CBLB arbitrageur is set around `8$`.
 
 **Conclusion**: As long as the current CBLB price of the Quickswap permanent liquidity pool is higher than the check-in cost and has a profit margin higher than the threshold, the robot arbitrageur has the incentive to use the robot to control multiple wallets to check in in batches and sell CBLB for profit.
 
+<a id="why-does-the-flow-cell-enter-a-steady-state"></a>
+
 ## Why does the flow cell enter a steady state?
 
 After the above analysis, due to the small arbitrage space, the users of the check-in robot have no power to operate the check-in robot to perform batch check-in to suppress the CBLB price, and the MATIC price fluctuation is in a normal state, double-pool arbitrage (here refers to the CBLB/MATIC flow pool of the quickswap flow pool) and Uniswap v3 CBLB/USDC liquidity pool) are also moderate, which in turn explains the relative stability of the liquidity pool.
+
+<a id="next-upgrade-point-of-cblbapp"></a>
 
 ## Next upgrade point of cblb.app
 
