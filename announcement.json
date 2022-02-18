@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "盘古开天",
+      "en": "Pangu Kaitian"
+    },
+    "url": {
+      "zh": "",
+      "en": ""
+    },
+    "route": "/",
+    "date": "2022/2/19"
+  },
+  {
+    "title": {
       "zh": "发布文章《Cblb.app 签到玩法角色细化和提升空间》",
       "en": "Published the article 'Cblb.app check-in gameplay, character refinement and room for improvement'"
     },
