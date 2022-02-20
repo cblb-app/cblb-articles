@@ -27,5 +27,4 @@ Developer Wallet Address Code of Conduct
 
 ## Extract the accumulated MATIC record of user check-in from the Cblb check-in smart contract
 
-- [2022/2/10 - 139.51 MATIC](https://polygonscan.com/tx/0x12e658941c544dfa47ea037641d849322f17bb69c91d8123c7b59093307f3746)
-- [2022/1/29 - 143.24 MATIC](https://polygonscan.com/tx/0x62cd1b5fa7fb0adc49eae6796b634f112c3a9600e7f38223aa238fab3a5dcc21)
+- [CblbCheckin contract send MATIC to developer history](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88#internaltx)
