@@ -1,6 +1,6 @@
 # Cblb 开发者钱包操作记录
 
-> Single source: [CBLB 签到玩法介绍](https://github.com/cblb-app/cblb-articles/blob/master/introductions/mannual-cblbcheckin.md)
+> Single source: [CBLB 签到玩法介绍](https://github.com/cblb-app/cblb-articles/blob/master/2022/mannual-cblbcheckin-zh.md)
 
 - 开发者钱包地址： [0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
 

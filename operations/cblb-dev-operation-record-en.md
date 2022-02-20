@@ -1,6 +1,6 @@
 # Cblb developer wallet operation record
 
-> Single source: CBLB check-in gameplay introduction
+> Single source: [CBLB check-in gameplay introduction](https://github.com/cblb-app/cblb-articles/blob/master/2022/mannual-cblbcheckin-en.md)
 
 - Developer wallet address: [0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
 
