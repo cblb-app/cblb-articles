@@ -87,11 +87,11 @@
 
 对于 Cblb 签到合约，**机器人套利者**的 CBLB 获取成本为
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/cblb-price-base.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/cblb-price-base.png)
 
 实际运行中，**机器人套利者**采用的模式是数十个钱包地址进行签到，汇集到一个地址完成 swap，那么签到成本为
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/cblb-price-average.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/cblb-price-average.png)
 
 对于 Cblb 签到玩法，每次签到获得的 CBLB 代币数量随着签到次数递减，可以得出结论：
 
@@ -167,7 +167,7 @@
 
 这个波动动力的产生，给**维护者**和**参与者**提供了套利空间，满足 CBLB Web3 经济系统稳定发展的需要。与此同时 Quickswap 上的**永久流动池**会不断积累[交易量价值的 0.3%](https://quickswap-layer2.medium.com/welcome-to-quickswap-exchange-93d47e057633)到自身，完成 CBLB Web3 经济系统价值的不断增长
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/quickswap-fee.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/quickswap-fee.png)
 
 从签到角度，如果没有用户签到，那么系统同样可以获得来自 MATIC 价格波动的动力，签到行为仅作用于 CBLB Web3 经济系统增速的快慢。
 

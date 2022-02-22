@@ -87,11 +87,11 @@ This is due to the advantages of Polygon's low interaction fees and blockchain c
 
 For the Cblb check-in contract, the CBLB acquisition cost for the bot arbitrageur is
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/cblb-price-base-en.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/cblb-price-base-en.png)
 
 In actual operation, the mode adopted by the robot arbitrageur is to check in with dozens of wallet addresses, and collect them into one address to complete the swap, then the check-in cost is
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/cblb-price-average-en.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/cblb-price-average-en.png)
 
 For the Cblb check-in game, the number of CBLB tokens obtained by each check-in decreases with the number of check-ins, and it can be concluded that:
 
@@ -168,7 +168,7 @@ From the perspective of liquidity, the permanent liquidity pool is CBLB/MATIC, a
 
 The generation of this fluctuation power provides arbitrage space for maintainers and participants to meet the needs of the stable development of the CBLB Web3 economic system. At the same time, the permanent liquidity pool on [Quickswap will continue to accumulate 0.3%](https://quickswap-layer2.medium.com/welcome-to-quickswap-exchange-93d47e057633) of the value of the transaction volume to itself, completing the continuous growth of the value of the CBLB Web3 economic system
 
-![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/analysis/imgs/quickswap-fee.png)
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/quickswap-fee.png)
 
 From the check-in point of view, if there is no user check-in, then the system can also gain momentum from the price fluctuation of MATIC, and the check-in behavior only affects the speed of the growth rate of the CBLB Web3 economic system.
 
