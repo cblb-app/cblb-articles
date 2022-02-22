@@ -1,4 +1,4 @@
-# cblb.app Glossary
+# Cblb.app Glossary
 
 <!-- MarkdownTOC -->
 

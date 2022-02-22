@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "发布文章《Cblb.app 名词解释》",
+      "en": "Cblb.app Glossary"
+    },
+    "url": {
+      "zh": "https://github.com/cblb-app/cblb-articles/blob/master/2022/cblb-app-glossary-zh.md",
+      "en": "https://github.com/cblb-app/cblb-articles/blob/master/2022/cblb-app-glossary-en.md"
+    },
+    "route": "",
+    "date": "2022/2"
+  },
+  {
+    "title": {
       "zh": "盘古开天",
       "en": "Pangu Kaitian"
     },

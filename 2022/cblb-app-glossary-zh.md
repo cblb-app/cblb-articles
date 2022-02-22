@@ -1,4 +1,4 @@
-# cblb.app 名词解释
+# Cblb.app 名词解释
 
 <!-- MarkdownTOC -->
 
