@@ -48,11 +48,11 @@ The check-in fixed fee can be viewed by calling the Cblb check-in contract funct
 
 The amount of CBLB obtained for each check-in is controlled by the mathematical model of Torricelli trumpet in the Cblb Check-in contract, which satisfies the formula
 
-$Check\, in\, to\, get\, CBLB\, amount\, =\, \frac {144600} {Total\, check\, in\, times\, +\, 100}$
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-to-get-cblb-amount-en.png)
 
 For example, the amount of CBLB earned for the 20000th check-in is
 
-$Check\, in\, to\, get\, CBLB\, amount\, =\, \frac {144600} {20000\, +\, 100}\, =\, 7.19402985$
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-to-get-cblb-amount-res-en.png)
 
 It can be viewed by calling the Cblb sign-in contract function `getCblbIssueAmount()`
 
@@ -70,7 +70,7 @@ Since the number of CBLBs obtained for each check-in is related to the total num
 
 The calculation formula is
 
-$Check\, in\, cost\, ratio\, =\, \frac {Check\, in\, cost} {Check\, in\, to\, get\, CBLB\, amount}$
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-cost-ratio-en.png)
 
 <a id="developer"></a>
 

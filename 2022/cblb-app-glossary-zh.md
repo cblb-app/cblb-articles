@@ -48,11 +48,11 @@ CBLB 签到成本为每次签到需付出 MATIC 数量，其中包含
 
 每次签到获得 CBLB 数量被 Cblb 签到合约内托里拆利小号数学模型控制，满足公式
 
-$签到获得 CBLB 数量\, =\, \frac {144600} {签到总人次\, +\, 100}$
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-to-get-cblb-amount-zh.png)
 
 例如，第 20000 次签到获得的 CBLB 数量为
 
-$签到获得 CBLB 数量\, =\, \frac {144600} {20000\, +\, 100}=7.19402985\, CBLB$
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-to-get-cblb-amount-res-zh.png)
 
 可通过调用 Cblb 签到合约函数`getCblbIssueAmount()`查看
 
@@ -70,7 +70,7 @@ $签到获得 CBLB 数量\, =\, \frac {144600} {20000\, +\, 100}=7.19402985\, CB
 
 计算公式为
 
-$签到成本兑换比例\, =\, \frac {签到成本} {签到得到 CBLB 数量}$
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-cost-ratio-zh.png)
 
 <a id="开发者"></a>
 
