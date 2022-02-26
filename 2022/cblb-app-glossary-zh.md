@@ -78,4 +78,4 @@ CBLB 签到成本为每次签到需付出 MATIC 数量，其中包含
 
 开发者完成 cblb.app 所有合约部署，获取用户签到积累的 MATIC 进行永久流动性 CBLB/MATIC 和 CBLB/WETH 添加
 
-- 钱包地址：`0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db`
+钱包地址：`0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db`

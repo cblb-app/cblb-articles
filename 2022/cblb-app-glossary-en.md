@@ -78,4 +78,4 @@ The calculation formula is
 
 The developer completes the deployment of all contracts in cblb.app, and obtains the MATIC accumulated by user sign-in for permanent liquidity CBLB/MATIC and CBLB/WETH addition
 
-- Wallet address: `0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db`
+Wallet address: `0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db`
