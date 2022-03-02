@@ -14,14 +14,15 @@
 
 ## Permanent liquidity
 
-> Update date@2022/2/22
+> Update date@2022/3/3
 
 CBLB permanent liquidity consists of two parts
 
 - [Quickswap CBLB/MATIC](https://info.quickswap.exchange/#/pair/0xe99d5f930048ae3006205c87d2ddafa397014012)
 - [Quickswap CBLB/WETH](https://info.quickswap.exchange/#/pair/0x8b6734217e1c5914cb729780fa9557629ff5b427)
+- [Quickswap CBLB/USDC](https://info.quickswap.exchange/#/pair/0x7d760ba1df7ec334a2942b5e057b82fa0a5cab5d)
 
-Developers use the MATIC accumulated in the check-in contract to conduct Quickswap CBLB/MATIC trading pairs and CBLB/WETH trading pairs to add liquidity to the liquidity pool and transfer the corresponding LP tokens to the CBLB token permanent liquidity pool formed by the permanent lock-in contract
+Developers use the MATIC accumulated in the check-in contract to conduct Quickswap CBLB/MATIC trading pairs, CBLB/WETH trading pairs and CBLB/USDC trading pairs to add liquidity to the liquidity pool and transfer the corresponding LP tokens to the CBLB token permanent liquidity pool formed by the permanent lock-in contract
 
 <a id="check-in-cost"></a>
 

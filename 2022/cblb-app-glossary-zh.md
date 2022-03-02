@@ -14,14 +14,15 @@
 
 ## 永久流动性
 
-> 更新日期@2022/2/22
+> 更新日期@2022/3/3
 
 CBLB 永久流动性由两部分组成
 
 - [Quickswap CBLB/MATIC](https://info.quickswap.exchange/#/pair/0xe99d5f930048ae3006205c87d2ddafa397014012)
 - [Quickswap CBLB/WETH](https://info.quickswap.exchange/#/pair/0x8b6734217e1c5914cb729780fa9557629ff5b427)
+- [Quickswap CBLB/USDC](https://info.quickswap.exchange/#/pair/0x7d760ba1df7ec334a2942b5e057b82fa0a5cab5d)
 
-开发者使用签到合约内积累的 MATIC 进行 Quickswap CBLB/MATIC 交易对和 CBLB/WETH 交易对流动池添加流动性并把对应 LP 代币转入签到合约永久锁定所形成的 CBLB 代币永久流动池
+开发者使用签到合约内积累的 MATIC 进行 Quickswap CBLB/MATIC 交易对、Quickswap CBLB/WETH 交易对和 CBLB/USDC 交易对流动池添加流动性并把对应 LP 代币转入签到合约永久锁定所形成的 CBLB 代币永久流动池
 
 <a id="签到成本"></a>
 
