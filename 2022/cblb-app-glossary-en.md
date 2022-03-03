@@ -89,7 +89,7 @@ The expected exchange ratio is the total amount of MATIC accumulated by users wh
 
 > Update date@2022/3/3
 
-The rug pull swap ratio is the CBLB/MATIC conversion ratio after all sellable CBLBs in the market are instantly sold. Since CBLB contains a permanent liquidity pool that conforms to AMM's automatic market making, `constant = CBLB quantity * MATIC quantity`, calculate The formula is
+The rug pull swap ratio is the CBLB/MATIC conversion ratio after all sellable CBLBs in the market are instantly sold. Since CBLB contains a permanent liquidity pool that conforms to AMM's automatic market making, `constant = CBLB quantity * MATIC quantity`, it is the limit price of the CBLB/MATIC exchange ratio, calculate The formula is
 
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/rug_pull_ratio_en.png)
 
