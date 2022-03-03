@@ -4,8 +4,10 @@
 
 - [永久流动性](#永久流动性)
 - [签到成本](#签到成本)
-- [签到获得 CBLB 数量](#签到获得cblb数量)
+- [签到获得 CBLB 数量](#签到获得-cblb-数量)
 - [签到成本兑换比例](#签到成本兑换比例)
+- [闪崩兑换比例](#闪崩兑换比例)
+- [期望兑换比例](#期望兑换比例)
 - [开发者](#开发者)
 
 <!-- /MarkdownTOC -->
@@ -41,7 +43,7 @@ CBLB 签到成本为每次签到需付出 MATIC 数量，其中包含
 
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/cblb-glossary-getCheckinFee.png)
 
-<a id="签到获得cblb数量"></a>
+<a id="签到获得-cblb-数量"></a>
 
 ## 签到获得 CBLB 数量
 
@@ -73,9 +75,29 @@ CBLB 签到成本为每次签到需付出 MATIC 数量，其中包含
 
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/check-in-cost-ratio-zh.png)
 
+<a id="闪崩兑换比例"></a>
+
+## 闪崩兑换比例
+
+> 更新日期@2022/3/3
+
+闪崩兑换比例为市场上所有可卖出的 CBLB 瞬时全部卖出后的 CBLB/MATIC 兑换比例，由于 CBLB 包含符合 AMM 自动做市的永久流动性池，`constant = CBLB数量 * MATIC数量`，计算公式为
+
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/rug_pull_ratio_zh.png)
+
+<a id="期望兑换比例"></a>
+
+## 期望兑换比例
+
+> 更新日期@2022/3/3
+
+期望兑换比例为 Cblb 签到合约内部由用户签到积累的 MATIC 总数除以 CBLB 总发行量，期望兑换比例可认为是 CBLB 代币从发行到当下兑换 MATIC 比例的平均值，是不可能达到的最低兑换比例。不可能达到该比例由于由永久流动池的存在。期望兑换比例随着签到人次增加，不断增长。
+
 <a id="开发者"></a>
 
 ## 开发者
+
+> 更新日期@2022/1/20
 
 开发者完成 cblb.app 所有合约部署，获取用户签到积累的 MATIC 进行永久流动性 CBLB/MATIC 和 CBLB/WETH 添加
 

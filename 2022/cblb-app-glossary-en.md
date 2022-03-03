@@ -5,8 +5,11 @@
 - [Permanent liquidity](#permanent-liquidity)
 - [Check-in cost](#check-in-cost)
 - [Check-in to get CBLB amount](#check-in-to-get-cblb-amount)
+- [Rug pull swap ratio](#rug-pull-swap-ratio)
+- [Expected exchange ratio](#expected-exchange-ratio)
 - [Check-in cost ratio](#check-in-cost-ratio)
 - [Developer](#developer)
+- [Expected exchange ratio](#expected-exchange-ratio-1)
 
 <!-- /MarkdownTOC -->
 
@@ -59,6 +62,24 @@ It can be viewed by calling the Cblb sign-in contract function `getCblbIssueAmou
 
 ![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/cblb-glossary-getCblbIssueAmount.png)
 
+<a id="rug-pull-swap-ratio"></a>
+
+## Rug pull swap ratio
+
+> Update date@2022/3/3
+
+The rug pull swap ratio is the CBLB/MATIC conversion ratio after all sellable CBLBs in the market are instantly sold. Since CBLB contains a permanent liquidity pool that conforms to AMM's automatic market making, `constant = CBLB quantity * MATIC quantity`, calculate The formula is
+
+![](https://raw.githubusercontent.com/cblb-app/cblb-articles/master/2022/imgs/rug_pull_ratio_en.png)
+
+<a id="expected-exchange-ratio"></a>
+
+## Expected exchange ratio
+
+> Update date@2022/3/3
+
+The expected exchange ratio is the total amount of MATIC accumulated by users who check in in the Cblb contract divided by the total issuance of CBLB. The expected exchange ratio can be regarded as the average of the ratio of CBLB tokens from the issuance to the current exchange of MATIC, which is an impossible minimum exchange ratio. It is not possible to achieve this ratio due to the presence of permanent flow cells. It is expected that the exchange rate will continue to grow as the number of check-ins increases.
+
 <a id="check-in-cost-ratio"></a>
 
 ## Check-in cost ratio
@@ -77,6 +98,16 @@ The calculation formula is
 
 ## Developer
 
+> Update date@2022/1/20
+
 The developer completes the deployment of all contracts in cblb.app, and obtains the MATIC accumulated by user sign-in for permanent liquidity CBLB/MATIC and CBLB/WETH addition
 
 Wallet address: `0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db`
+
+<a id="expected-exchange-ratio-1"></a>
+
+## Expected exchange ratio
+
+> Update date@2022/3/3
+
+The expected exchange ratio is the total amount of MATIC accumulated by users who sign in the Cblb sign-in contract divided by the total issuance of CBLB. The expected exchange ratio can be considered as the average of the ratio of CBLB tokens from the issuance to the current exchange rate of MATIC, which is an impossible minimum exchange ratio. . It is not possible to achieve this ratio due to the presence of permanent flow cells. It is expected that the exchange rate will continue to grow as the number of check-ins increases.
