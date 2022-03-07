@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "实现 Cblb 签到人次和 CBLB 代币获取托里拆利小号模型函数图表",
+      "en": "Realize the function chart of Cblb check-in times and CBLB token acquisition Torricelli trumpet model"
+    },
+    "url": {
+      "zh": "https://cblb.app/supervise/cblb-check-in",
+      "en": "https://cblb.app/supervise/cblb-check-in"
+    },
+    "route": "",
+    "date": "2022/3"
+  },
+  {
+    "title": {
       "zh": "Cblb盘古元宇宙引入模型贴图作为广告元素",
       "en": "Cblb Pangu Metaverse introduces model textures as advertising elements"
     },
