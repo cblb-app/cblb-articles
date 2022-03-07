@@ -4,21 +4,21 @@
 
 - [CBLB 签到合约](#cblb-签到合约)
 - [CBLB 代币](#cblb-代币)
-- [开发者钱包](#开发者钱包)
-- [维护者钱包](#维护者钱包)
+- [开发者](#开发者)
+- [维护者](#维护者)
 
 <!-- /MarkdownTOC -->
 
-CBLB 签到玩法是基于智能合约构建的 CBLB Web3 经济系统入口，[Cblb 签到合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)和[CBLB 代币合约](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)均部署于 Polygon。
+CBLB 签到玩法是基于智能合约构建的 CBLB Web3 经济系统入口。通过签到行为，用户可以得到 CBLB 代币，随着签到总人次的增加，用户每次签到得到的 CBLB 数量根据签到合约内置托里拆利小号函数非线性递减，签到总人次和 CBLB 发行量之间的函数图像如下见：[cblb.app/supervise/cblb-check-in](https://cblb.app/supervise/cblb-check-in)
 
 CBLB 签到包含了四个元素：
 
 - [CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)
-- [CBLB 代币合约](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)
-- [开发者钱包地址](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
-- [维护者钱包地址](https://polygonscan.com/address/0xf9e4b03a592152cbF2362222d7465f25ba627f9C)
+- [CBLB 代币智能合约](https://polygonscan.com/token/0x7a45922F95C845Ff9bE01112AfCF207968a9cA0B)
+- 开发者，[钱包地址](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
+- 维护者，[钱包地址](https://polygonscan.com/address/0xf9e4b03a592152cbF2362222d7465f25ba627f9C)
 
-以上四个元素构成了 CBLB 签到玩法，以上元素均部署在 Polygon
+以上四个元素构成了 CBLB 签到玩法，合约均部署在 Polygon。
 
 <a id="cblb-签到合约"></a>
 
@@ -77,9 +77,9 @@ expectRatio = maticAcquired / cblbMinted
 
 一个没有初始 Mint 的 Mintable ERC20 代币，每次签到会由[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)Mint 并发送 CBLB 给签到用户，发行数量被[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)里的[托里拆利小号模型](https://cblb.app/supervise/cblb-token-model)控制，随着签到人数增加，每次发行数量非比例性递减
 
-<a id="开发者钱包"></a>
+<a id="开发者"></a>
 
-## 开发者钱包
+## 开发者
 
 - 开发者钱包地址： [0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db](https://polygonscan.com/address/0xe75Dc9d66eae386e76370bfcB4BbD5AdC7BeE6db)
 
@@ -92,9 +92,9 @@ expectRatio = maticAcquired / cblbMinted
 - 利用签到领取到的 CBLB 、买入的 CBLB 和获取的 MATIC 添加[Quickswap CBLB/MATIC 流动性池](https://polygonscan.com/address/0xe99d5f930048ae3006205c87d2ddafa397014012)，并把[流动性 LP 代币](https://polygonscan.com/token/0xe99d5f930048ae3006205c87d2ddafa397014012)锁入[CBLB 签到智能合约](https://polygonscan.com/address/0x15942E96becA7fA6081740dFB74D7702ec2C3B88)成为永久 CBLB/MATIC 流动性
 - 【禁止】卖出 CBLB
 
-<a id="维护者钱包"></a>
+<a id="维护者"></a>
 
-## 维护者钱包
+## 维护者
 
 - 维护者钱包地址：[0xf9e4b03a592152cbF2362222d7465f25ba627f9C](https://polygonscan.com/address/0xf9e4b03a592152cbF2362222d7465f25ba627f9C)
 
