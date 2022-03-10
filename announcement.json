@@ -1,14 +1,26 @@
 [
   {
     "title": {
+      "zh": "#imToken# #7323# 我们正在完善 CBLB 在 imToken 中的代币相关资料。完成后，大家可以在 imToken 里看到 logo，更方便地管理 CBLB，同时能看到更多代币信息。",
+      "en": "#imToken #7323 We are providing CBLB token’s information on imToken. After completion, you can see the logo and full information inside imToken’s Token Manager."
+    },
+    "url": {
+      "zh": "",
+      "en": ""
+    },
+    "route": "/publish/announcements",
+    "date": "2022/3"
+  },
+  {
+    "title": {
       "zh": "实现 Cblb 签到人次和 CBLB 代币获取托里拆利小号模型函数图表",
       "en": "Realize the function chart of Cblb check-in times and CBLB token acquisition Torricelli trumpet model"
     },
     "url": {
-      "zh": "https://cblb.app/supervise/cblb-check-in",
-      "en": "https://cblb.app/supervise/cblb-check-in"
+      "zh": "",
+      "en": ""
     },
-    "route": "",
+    "route": "/supervise/cblb-check-in",
     "date": "2022/3"
   },
   {
