@@ -5,10 +5,10 @@
       "en": "#imToken #7323 We are providing CBLB token’s information on imToken. After completion, you can see the logo and full information inside imToken’s Token Manager."
     },
     "url": {
-      "zh": "",
-      "en": ""
+      "zh": "https://github.com/consenlabs/token-profile/pull/7323",
+      "en": "https://github.com/consenlabs/token-profile/pull/7323"
     },
-    "route": "/publish/announcements",
+    "route": "",
     "date": "2022/3"
   },
   {
