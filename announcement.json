@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "发布cblb-miner-cli",
+      "en": "Release cblb-miner-cli"
+    },
+    "url": {
+      "zh": "https://github.com/cblb-app/cblb-miner-cli/blob/master/README-zh.md",
+      "en": "https://github.com/cblb-app/cblb-miner-cli"
+    },
+    "route": "",
+    "date": "2022/5"
+  },
+  {
+    "title": {
       "zh": "#imToken# #7323# 我们正在完善 CBLB 在 imToken 中的代币相关资料。完成后，大家可以在 imToken 里看到 logo，更方便地管理 CBLB，同时能看到更多代币信息。",
       "en": "#imToken #7323 We are providing CBLB token’s information on imToken. After completion, you can see the logo and full information inside imToken’s Token Manager."
     },
