@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "CBLB第二次空投开始！随缘关注或者转推，只需要留下你的Polygon钱包地址，就会收到100枚 $CBLB ",
+      "en": "CBLB's second airdrop begins! Follow or retweet at will, just leave your Polygon wallet address and you will receive 100 $CBLB"
+    },
+    "url": {
+      "zh": "https://twitter.com/cblbapp/status/1525019721225351168?s=20&t=LDoz5Y1gEt77PnaKrofzJA",
+      "en": "https://twitter.com/cblbapp/status/1525019721225351168?s=20&t=LDoz5Y1gEt77PnaKrofzJA"
+    },
+    "route": "",
+    "date": "2022/5"
+  },
+  {
+    "title": {
       "zh": "发布cblb-miner-cli",
       "en": "Release cblb-miner-cli"
     },
