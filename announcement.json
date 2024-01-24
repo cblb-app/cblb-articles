@@ -1,6 +1,18 @@
 [
   {
     "title": {
+      "zh": "经过一年的gap，重新开发迭代",
+      "en": "After a year of gap, redevelopment and iteration"
+    },
+    "url": {
+      "zh": "",
+      "en": ""
+    },
+    "route": "",
+    "date": "2024/1/23"
+  },
+  {
+    "title": {
       "zh": "增加Frens Panel，祝一路长红",
       "en": "Add Frens Panel, wish the project a long and successful"
     },
